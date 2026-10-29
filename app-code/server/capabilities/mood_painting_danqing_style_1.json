@@ -1,0 +1,28 @@
+{
+  "id": "mood_painting_danqing_style_1",
+  "pluginKey": "@official-plugins/ai-text-to-image",
+  "pluginVersion": "1.0.21",
+  "name": "渲心心情画-丹青风格抽象画生成",
+  "description": "根据用户输入的心情描述，生成1:1比例的丹青风格抽象画，用于渲心心情画应用",
+  "icon": "",
+  "paramsSchema": {
+    "type": "object",
+    "properties": {
+      "mood_description": {
+        "type": "string",
+        "description": "用户的心情描述文本"
+      }
+    },
+    "required": [
+      "mood_description"
+    ]
+  },
+  "formValue": {
+    "prompt": "请生成一张高质量的丹青风格抽象画，核心主题是表达以下心情：{{input.mood_description}}。画面要求：采用中国传统丹青水墨风格，抽象写意，笔墨富有层次感和意境，色彩以水墨基调为主，适当点缀符合心情氛围的色彩，整体风格典雅富有艺术感，能够精准传达用户的情绪感受。质量要求：画面清晰，细节丰富，笔触自然，无明显瑕疵。",
+    "ratio": "1:1",
+    "watermark": false
+  },
+  "createdAt": 1792921876247,
+  "updatedAt": 1792921876247,
+  "createdBy": 7656323425547341019
+}

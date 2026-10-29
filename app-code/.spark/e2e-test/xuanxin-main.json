@@ -1,0 +1,11 @@
+{"cases":[
+  {"id":1,"priority":"p0","description":"打开首页，预期渲心品牌标题和输入框可见，开始渲心按钮可点击"},
+  {"id":2,"priority":"p0","description":"从首页导航到心情墙，页面正常渲染，未登录时空态显示登录引导"},
+  {"id":3,"priority":"p0","description":"从首页导航到情绪色盘，页面正常渲染，未登录时空态显示登录引导"},
+  {"id":4,"priority":"p0","description":"从首页导航到心情广场，页面正常渲染，空状态显示空白画卷"},
+  {"id":5,"priority":"p0","description":"从首页导航到我的页面，未登录时显示登录/注册入口"},
+  {"id":6,"priority":"p1","description":"点击登录按钮打开登录注册弹窗，可在登录和注册Tab间切换"},
+  {"id":7,"priority":"p1","description":"心情墙可在周/月/年三种视图间切换，切换后视图正常渲染"},
+  {"id":8,"priority":"p1","description":"广场瀑布流可滚动浏览，底部导航5个Tab可切换"},
+  {"id":9,"priority":"p1","description":"首页输入心情文字后情绪标签正确显示对应情绪分类"}
+]}
